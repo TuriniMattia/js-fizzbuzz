@@ -3,13 +3,14 @@
 // per i multipli di 3 stampi “Fizz” al posto del numero e
 // per i multipli di 5 stampi “Buzz” al post del numero.
 // Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz” al posto del numero.
-
-//dichiare una variabile
-    for (let i = 0; i < 100; i++){
+// 1-dichiare una variabile n
+    let n = 100
+// 2-dichiaro una variabile i
+    for (let i = 0; i < n; i++){
         let num = i + 1;
+        console.log(num)
     }
-        
-//stampare in console
-//SE è un multiplo di 3 , stamperà Fizz
-//SE ALTRIMENTI è un multimo di 5 stamperà Buzz
-//ALTRIME
+//SE è un multiplo di 15 , stamperà FizzBuzz
+//ALTRIMENTI SE è un multimo di 3 stamperà Buzz
+//ALTRIMENTI SE è un multimo di 5 stamperà Fizz
+//ALTRIMENTI stamperà il nunero
