@@ -1,0 +1,24 @@
+.base-box{
+    padding: 30px;
+    background-color: rgb(19, 137, 178);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.base-box.fizz {
+    background-color: rgb(12, 214, 161);
+}
+
+.base-box.buzz{
+    background-color: rgb(255, 209, 102);
+}
+.base-box.fizzbuzz{
+    background-color: rgb(240, 70, 111);
+}
+
+body {
+    background-color:rgb(8, 59, 76)
+}
